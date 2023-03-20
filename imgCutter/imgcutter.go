@@ -6,7 +6,7 @@ import (
 )
 
 // Python code with CatmullRom but written in golang.
-func cropImage(img image.Image, width, height int) (destimg image.Image) {
+func CropImage(img image.Image, width, height int) (destimg image.Image) {
 	sourceWidth := img.Bounds().Dx()
 	sourceHeight := img.Bounds().Dy()
 	sourceAspect := float64(sourceWidth) / float64(sourceHeight)
