@@ -3,12 +3,10 @@ package FrostedGlassLike
 import (
 	"image"
 	"image/color"
-	"os"
 )
 
 // just load your file and it will reply (
-func FrostedGlassLike(src os.File, radius int, err error) (dst image.Image) {
-	srcImg, _, err := image.Decode(&src)
+func FrostedGlassLike(srcImg image.Image, radius int, err error) (dst image.Image) {
 	if err != nil {
 		panic(err)
 	}
