@@ -1,4 +1,4 @@
-module github.com/moyoez/img_toolbox
+module github.com/MoYoez/img_toolbox
 
 go 1.20
 
